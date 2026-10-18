@@ -1,33 +1,43 @@
-# NumPy-Basics-for-Data-Science
-NumPy basics, arrays, operations, statistics and linear algebra
 # NumPy Basics for Data Science
 
-## 📌 Overview
-This repository contains a complete guide to NumPy fundamentals used in
-Data Science and Python programming.
+NumPy fundamentals for data science beginners: arrays, operations, indexing,
+broadcasting, statistics, random numbers and linear algebra.
 
-## 📘 Topics Covered
-- Creating NumPy Arrays (1D & 2D)
-- Built-in Functions (zeros, ones, arange, linspace)
-- Mathematical Functions (sin, cos, sqrt, exp)
-- Indexing & Slicing
+## Topics covered
+
+- Creating NumPy arrays (1D and 2D)
+- Built-in functions (`zeros`, `ones`, `arange`, `linspace`)
+- Mathematical functions (`sin`, `cos`, `sqrt`, `exp`)
+- Indexing and slicing
 - Broadcasting
-- Vectorized Operations
-- Conditional Statements
-- Array Reshaping & Manipulation
-- Aggregations & Statistics
-- Random Numbers & Distributions
-- Linear Algebra (Dot product, Determinant, Inverse, Eigenvalues)
+- Vectorized operations
+- Conditional (boolean) indexing
+- Reshaping, flattening and transposing
+- Aggregations and statistics (`sum`, `mean`, `std`, `var`, axis-wise)
+- Random numbers and distributions
+- Linear algebra (dot product, determinant, inverse, eigenvalues)
 
-## 🛠 Tools Used
-- Python
-- NumPy
+## Files
 
-## 📂 File Included
-- Numpy.pdf
+| File                  | Description                                          |
+|-----------------------|------------------------------------------------------|
+| `numpy_basics.ipynb`  | Runnable Jupyter notebook with all the examples      |
+| `Numpy.pdf`           | Original printed notebook, including saved outputs   |
+| `requirements.txt`    | Python packages needed to run the notebook           |
 
-## 🎯 Use Case
-- BCA / BSc / MCA Students
-- Data Science Beginners
-- College Assignments
-- Interview & Revision Notes
+## How to run
+
+```bash
+pip install -r requirements.txt
+jupyter notebook numpy_basics.ipynb
+```
+
+Run the cells from top to bottom. The random-number cell uses a fixed seed
+(`np.random.seed(42)`), so it gives the same output every time.
+
+## Who is this for
+
+- BCA / BSc / MCA students
+- Data science beginners
+- College assignments
+- Interview and revision notes
