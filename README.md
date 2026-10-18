@@ -1,5 +1,7 @@
 # NumPy Basics for Data Science
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Manishjangir01/NumPy-Basics-for-Data-Science/blob/main/numpy_basics.ipynb)
+
 NumPy fundamentals for data science beginners: arrays, operations, indexing,
 broadcasting, statistics, random numbers and linear algebra.
 
@@ -41,3 +43,7 @@ Run the cells from top to bottom. The random-number cell uses a fixed seed
 - Data science beginners
 - College assignments
 - Interview and revision notes
+
+## License
+
+MIT, see [LICENSE](LICENSE).
